@@ -38,7 +38,7 @@
           label=usernameLabel
           message=kcSanitize(messagesPerField.getFirstError("username", "password"))
           name="username"
-          type="text"
+          type="email"
           value=(login.username)!''
         />
         <@input.kw
